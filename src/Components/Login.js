@@ -18,7 +18,7 @@ const navigate = useNavigate();
 const loginUser = async (e) => {
     e.preventDefault();
 console.log("1");
-    const res = await fetch("/signin" ,{
+    const res = await fetch("https://stormy-waters-66992.herokuapp.com/signin" ,{
       method : "POST",
       headers : {
         'Content-Type': 'application/json'
