@@ -10,7 +10,7 @@ function Logout() {
 const navigate = useNavigate();
 
 useEffect(() => {
-fetch('/logout' , {
+fetch('https://stormy-waters-66992.herokuapp.com/logout' , {
     method:"GET",
     headers:{
         Accept:"appllication/json",
