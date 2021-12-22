@@ -44,7 +44,7 @@ const Register = (props) => {
         //  Object Destructering instead of writing user.name
          const {Name , Email , Mobile , Section , Referrer , Id} = user;
 
-        const res = await fetch("/register" , {
+        const res = await fetch("https://stormy-waters-66992.herokuapp.com/register" , {
         
         method : "POST",
         headers:{
