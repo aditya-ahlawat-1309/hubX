@@ -1,0 +1,37 @@
+.login-div-NAlumni{
+background-color: black;
+}
+
+.label-login{
+float:center ;
+color:white;
+margin-bottom: 2.5%;
+margin-top: 2.15%;
+font-size: large;
+}
+
+.input-login{
+float:center;
+width:80%;
+border-radius: 25px;
+padding:5px;
+}
+
+.login-btn{
+width:50%;
+margin-top: 5%;
+background-color: orange;
+padding: 10px;
+border-radius: 25px;
+font-weight: bold;
+}
+
+.login-home{
+width:50%;
+background-color: yellow;
+padding: 10px;
+border-radius: 25px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+}

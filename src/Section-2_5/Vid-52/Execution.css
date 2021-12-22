@@ -1,0 +1,49 @@
+.mern-contents-expense-tracker {
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  background-color: rgb(11, 158, 216);
+width:75%;
+margin-left:12.5%;
+}
+
+.expense-item__heading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #47f5cf;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.expense-date-mern {
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 1px solid #ececec;
+  background-color: #910580;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.expense-item__update {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(36, 238, 238);
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.input-text-expense{
+  width:300px;
+  height:40px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 1.5%;
+  margin-right: 19.5%;
+}
